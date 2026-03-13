@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#content {
+    width: 60%;
+    float: left;
+}
+
+#sidebar {
+    width: 30%;
+    float: right;
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+h1 {
+    color: #333;
+}
