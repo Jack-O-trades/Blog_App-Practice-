@@ -1,0 +1,11 @@
+<h2>Add a new comment</h2>
+
+{% if comment %}
+<p>Your comment has been added.</p>
+{% else %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Add comment</button>
+</form>
+{% endif %}

@@ -1,0 +1,48 @@
+2026-05-10 18:30:34,227: Error running WSGI application
+2026-05-10 18:30:34,237: ModuleNotFoundError: No module named 'Chapter123'
+2026-05-10 18:30:34,238:   File "/var/www/ommprakashrout_pythonanywhere_com_wsgi.py", line 12, in <module>
+2026-05-10 18:30:34,238:     application = get_wsgi_application()
+2026-05-10 18:30:34,238: 
+2026-05-10 18:30:34,238:   File "/usr/local/lib/python3.10/dist-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+2026-05-10 18:30:34,238:     django.setup(set_prefix=False)
+2026-05-10 18:30:34,239: 
+2026-05-10 18:30:34,239:   File "/usr/local/lib/python3.10/dist-packages/django/__init__.py", line 19, in setup
+2026-05-10 18:30:34,239:     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+2026-05-10 18:30:34,239: 
+2026-05-10 18:30:34,239:   File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 89, in __getattr__
+2026-05-10 18:30:34,239:     self._setup(name)
+2026-05-10 18:30:34,240: 
+2026-05-10 18:30:34,244:   File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 76, in _setup
+2026-05-10 18:30:34,244:     self._wrapped = Settings(settings_module)
+2026-05-10 18:30:34,244: 
+2026-05-10 18:30:34,245:   File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 190, in __init__
+2026-05-10 18:30:34,245:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2026-05-10 18:30:34,245: ***************************************************
+2026-05-10 18:30:34,245: If you're seeing an import error and don't know why,
+2026-05-10 18:30:34,245: we have a dedicated help page to help you debug: 
+2026-05-10 18:30:34,245: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-05-10 18:30:34,246: ***************************************************
+2026-05-10 18:30:55,617: Error running WSGI application
+2026-05-10 18:30:55,618: ModuleNotFoundError: No module named 'Chapter123'
+2026-05-10 18:30:55,618:   File "/var/www/ommprakashrout_pythonanywhere_com_wsgi.py", line 12, in <module>
+2026-05-10 18:30:55,618:     application = get_wsgi_application()
+2026-05-10 18:30:55,619: 
+2026-05-10 18:30:55,619:   File "/usr/local/lib/python3.10/dist-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+2026-05-10 18:30:55,619:     django.setup(set_prefix=False)
+2026-05-10 18:30:55,619: 
+2026-05-10 18:30:55,619:   File "/usr/local/lib/python3.10/dist-packages/django/__init__.py", line 19, in setup
+2026-05-10 18:30:55,619:     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+2026-05-10 18:30:55,620: 
+2026-05-10 18:30:55,620:   File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 89, in __getattr__
+2026-05-10 18:30:55,621:     self._setup(name)
+2026-05-10 18:30:55,621: 
+2026-05-10 18:30:55,622:   File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 76, in _setup
+2026-05-10 18:30:55,623:     self._wrapped = Settings(settings_module)
+2026-05-10 18:30:55,623: 
+2026-05-10 18:30:55,623:   File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 190, in __init__
+2026-05-10 18:30:55,623:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2026-05-10 18:30:55,623: ***************************************************
+2026-05-10 18:30:55,623: If you're seeing an import error and don't know why,
+2026-05-10 18:30:55,624: we have a dedicated help page to help you debug: 
+2026-05-10 18:30:55,624: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-05-10 18:30:55,624: ***************************************************
